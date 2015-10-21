@@ -72,7 +72,7 @@ Using the above line, we'll create a global alias, or keyboard shortcut for the 
 ```shell
 $ git config --global alias.co checkout
 ```
-For above, we used the config command for git to configure git to your preferences and create a global alias "co" (keyboard shortcut for the command line) for the git command "checkout"
+For above, we used the config command for git to configure your git preferences and create a global alias "co" (keyboard shortcut for the command line) for the git command "checkout"
 
 
 
