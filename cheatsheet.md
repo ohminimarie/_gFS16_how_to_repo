@@ -60,6 +60,19 @@ A typical collaboration pattern is actually to fork then branch off of master, t
 
 The reason for this is that master, as a branch, should always represent code or whatever that "works" and is suitable for deployment or sharing or whatever "going public" is for you.
 
+### How To Make Git Alias Command Line Shortcuts
+
+It's handy to have keyboard shortcuts in the command line for commands used frequently. Fortunately, there are ways to make aliases for common commands in Git.
+
+```shell
+$ git config --global alias.<short cut> <command>
+```
+Using the above line, we'll create a global alias, or keyboard shortcut for the command line, for a specific command.
+
+```shell
+$ git config --global alias.co checkout
+```
+For above, we used the config command for git to configure git to your preferences and create a global alias "co" (keyboard shortcut for the command line) for the git command "checkout"
 
 
 
